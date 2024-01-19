@@ -1,0 +1,134 @@
+
+/*Difiniçoes Globais*/
+.main{
+    margin-left: 18.3%;
+    width: 77vw;
+}
+.main .header h3{
+    margin: 2% 0 0 1%;
+    font-size: 3rem;
+    font-family: cursive;
+}
+.w3-navbar a{
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+/*Cabeçalho*/
+#Home{
+    display: flex;
+}
+.main .header{
+    margin: -1% 0 2% 0;
+    padding-bottom: .1px;
+    background-color: #eee;
+}
+.main .header h1{
+    margin: 1rem 0 1rem 3rem;
+    background-color: #eee;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main .header .section{
+ width: 90%;
+ height: 10%;
+ margin: 2rem 0 0rem 3rem;
+ display: flex;
+ gap: 4rem;
+}
+#Home .section div{
+    background-color: #fff;
+    padding: 1.5rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 3px 0 #ccc;
+} 
+#Home .section div:hover{
+    background-color: rgb(202, 238, 247);
+} 
+#Home .section div a, #Home .section div span{
+    text-decoration: none;
+    color: #333;
+} 
+#Home .section div .dados{
+    position: absolute;
+    margin: 6rem 0 0 -8rem;
+}
+#Home .section div .fa{
+    margin-left: 12rem;
+    font-size: 7rem;
+    color: rgba(8, 75, 175, 0.247);
+}
+/*Corpo*/
+#Home .section-2{
+    width: 30rem;
+    margin: 0 0 0 5rem;
+}
+/*Lista de info*/
+
+/*Rodape*/
+
+/*Corpo*/
+
+#adicionar-cirurgiao, #listagem-cirurgiao, #consultar-cirurgiao{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/*@media  (max-width: 1358px) {*/
+ @media  (min-width: 900px) {
+    .main{
+        margin-left: 22%;
+    }
+    .main .header{
+        margin: -1% 0 0% 0;
+        padding-bottom: 2rem;
+    }
+    #Home .section div{
+        padding: .1rem;
+        font-size: 1.1rem;
+    }
+    #Home .section div .texto{
+        margin: 0 0 0 1rem;
+    }
+    #Home .section div .dados{
+        margin: 3rem 0 0 -4rem;
+    }
+    #Home .section div .fa{
+        margin-left: 8rem;
+        font-size: 4rem;
+    }
+    #Home .section-2{
+        display:flex;
+        gap: 3rem;
+    }
+}
+@media  (max-width: 800px) {
+    .main{
+        margin: 0;
+        width: 100vw;
+    }
+    #Home .main .header .section{
+        margin: 0 0 0 0;
+        flex-direction: column;
+    }
+    #Home .section div{
+        background-color: #fff;
+        padding: 1rem;
+        width: 80%;
+        font-size: 15pt;
+        margin: .1rem 0 0rem 3rem;
+    }
+    #Home .section div .fa{
+        margin-left: 8rem;
+        font-size: 25pt;
+    }
+    #Home .section-2{
+        margin: 0;
+    }
+}

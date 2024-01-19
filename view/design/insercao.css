@@ -1,0 +1,28 @@
+/*Estrutura Principal*/
+
+/*Cabeçalho*/
+#Inserir .main .header h3{
+    margin: 2% 0 0 1%;
+    font-size: 3rem;
+    font-family: cursive;
+}
+/*Corpo*/
+
+#ambulatoriais, #complexas{
+    display: none;
+}
+/*Douctor Page*/
+@media  (min-width: 900px) {
+    #Douctor .section{
+        margin-top: 5rem;
+    }
+    #Douctor .conteudo{
+        width: 45%;
+        margin:5rem 0 0 10rem;
+    }
+    #Douctor .fa-edit, #Douctor .fa-trash{
+        font-size: 2.5rem;
+        color: white;
+    }
+}
+/*Rodape*/
